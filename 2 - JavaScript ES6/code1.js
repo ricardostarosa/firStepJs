@@ -15,3 +15,10 @@ console.log ( 2+3 > 7 && 10 > 4);
 console.log(true ? "ok" : "bad");
 
 console.log(false ? "ok" : "bad");
+
+// == & === , o javascript tenta converter os valores de acordo com certas regras estabelecidas na operção
+
+console.log ( false == 0);
+console.log (false === 0);
+console.log ('5' - 4 == 1);
+console.log ('5' + 4 == 9);
