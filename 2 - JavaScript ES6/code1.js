@@ -9,3 +9,9 @@ console.log(` Elemento do tipo: ${typeof elementos[0]}, elemento : ${typeof elem
 // binary elements são operadores que retornam valores lógicos do tipo: verdadeiro ou falso.
 
 console.log ( 2+3 > 7 && 10 > 4);
+
+// ternary elements são operadores que retornam um valor caso a operação seja true or false.
+
+console.log(true ? "ok" : "bad");
+
+console.log(false ? "ok" : "bad");
