@@ -25,9 +25,17 @@ console.log ('5' + 4 == 9);
 
 // peculiaridades || and && . retorna o valor da esquerda quando o mesmo pode ser convertido para booleano 
 //e o valor da direita quando for o contrário.
+// obs : null , 0 and " " retornam false.
 
-var teste = null;
+
+var teste = "";
 var substituto = "coringa";
 console.log( teste || substituto);
+
+// && . retorna o valor da esquerda for falso retorna o valor contido nele.
+
+console.log( 0 && substituto);
+
+
 
 
