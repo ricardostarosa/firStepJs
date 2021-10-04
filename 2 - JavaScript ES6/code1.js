@@ -22,3 +22,12 @@ console.log ( false == 0);
 console.log (false === 0);
 console.log ('5' - 4 == 1);
 console.log ('5' + 4 == 9);
+
+// peculiaridades || and && . retorna o valor da esquerda quando o mesmo pode ser convertido para booleano 
+//e o valor da direita quando for o contrário.
+
+var teste = null;
+var substituto = "coringa";
+console.log( teste || substituto);
+
+
