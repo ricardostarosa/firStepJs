@@ -34,7 +34,16 @@ console.log( teste || substituto);
 
 // && . retorna o valor da esquerda for falso retorna o valor contido nele.
 
+
 console.log( 0 && substituto);
+
+
+
+
+
+
+
+
 
 
 
