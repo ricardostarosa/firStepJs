@@ -17,4 +17,29 @@ for(let number = 1; number <= 100 ; number++){
     else console.log(number);
 }
 
+// checker board
+
+let hash = '';
+
+for(let b = 0; b < 10; b++){
+
+hash = "";
+
+for (let a = 0; a < 10; a++){
+
+   if((a+b) % 2 == 0){
+
+     hash += " ";
+   
+   }else{
+
+     hash += "#";
+   }
+
+}
+
+  console.log(hash);
+  
+}
+
 
