@@ -1,0 +1,27 @@
+.teste{
+
+    text-align: center;
+    font-style: oblique;
+    
+}
+
+.azul{
+
+    color: blue;
+    
+}
+
+.verde{
+
+    color: chartreuse;
+}
+
+ul{
+
+    list-style-type: none;
+}
+
+li{
+
+    text-align: center;
+}
